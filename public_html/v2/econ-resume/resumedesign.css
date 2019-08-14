@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	background-color: #E6E6E6;
+}
+
+#resume-frame{
+	padding: 23px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60vw;
+	background-color: White;
+}
+
+h1{
+	font-size: 37px;
+	padding-left: 0;
+	font-weight: bold;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 25px;
+	padding-left: 53px;
+	font-weight: bold;
+	color: #444;
+	margin-bottom: 0;
+	margin-top: 37px;
+}
+
+p{
+	padding-left: 36px;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.half {
+    width: 50%;
+    float: left;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	padding-left: 53px;
+}
+
+.active, .accordion:hover {
+    background-color: #eee;
+}
+
+.panel {
+    padding: 0 32px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

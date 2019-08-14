@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<!-- *** Below I am using Google to track website visitors *** -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36822935-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-36822935-2');
+	</script>
+	<!-- *** End tracking script -->
+
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Royce Yang</title>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body>
+	<div id="landing-page">
+		<div id="typed"></div>
+		<script>
+			var i = 0;
+			/*var introduction = 'Hey there! It\'s Royce.\n         \nThank you for visiting my website!\nYou\'ll find an interactive resume;\n100% coded by me and from scratch.\n        \nLet me know if you are looking for a(n):\n\n\n  or  \n';
+
+			function type(){
+				if (introduction.charAt(i) == '\n'){
+					document.getElementById("typed").innerHTML += '<br>';
+				}
+				else if (i < introduction.length){
+					document.getElementById("typed").innerHTML += introduction.charAt(i);
+				}
+				i++;
+				if (i == (introduction.length - 8)){
+					document.getElementById("typed").innerHTML += '<button class="button" onclick=\'window.location.href="econ-resume/resume.html"\'> Economist </button>';
+				}
+				else if (i == introduction.length){
+					document.getElementById("typed").innerHTML += '<button class="button" onclick=\'window.location.href="cs-resume/resume.html"\'> Computer Scientist </button>';
+				}
+				setTimeout(type, 28);
+			}*/
+
+			var introduction = 'Hey there! It\'s Royce.\n\nMy website is currently undergoing some reconstruction.\n:(\n\nPlease check back later!\nSorry for the inconvenience.\n\n\n';
+
+			function type(){
+				if (introduction.charAt(i) == '\n'){
+					document.getElementById("typed").innerHTML += '<br>';
+				}
+				else if (i < introduction.length){
+					document.getElementById("typed").innerHTML += introduction.charAt(i);
+				}
+				i++;
+				if (i == introduction.length){
+					document.getElementById("typed").innerHTML += '<button class="button" onclick=\'window.location.href="YANG_Royce_UChicago.pdf"\'> Download My Resume </button>';
+				}
+				setTimeout(type, 28);
+			}
+
+			type();
+
+
+		</script>
+
+	</div>
+</body>
+
+
+</html>
